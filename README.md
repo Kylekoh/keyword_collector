@@ -90,14 +90,16 @@ yarn start
 
 ## Usage
 
-- 리그 테이블(5대 리그별 팀 순위)
-  <img src='./src/Images/stat_table.png' width="600" height="400" margin="0 auto">
+- 네이버 광고 로그인
+  <img src='./src/Images/login.gif' width="600" height="400" margin="0 auto">
   <br/>
 
-- 팀 정보(소속 나라, 설립연도, 구장 이름, 수용 인원)
-  <img src='./src/Images/stat_team.png' width="600" height="400" margin="0 auto">
+- 키워드 검색
+  <img src='./src/Images/search.gif' width="600" height="400" margin="0 auto">
+  <br/>
 
-<br/>
+- 검색 결과 엑셀 Export
+  <img src='./src/Images/excel.gif' width="600" height="400" margin="0 auto">
 
 ## Contact
 
