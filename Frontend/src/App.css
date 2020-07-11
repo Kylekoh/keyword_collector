@@ -1,0 +1,221 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-section {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#login-container {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid gray; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.login-form {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.login-form label {
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.login-form input{
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  width: 180px;
+  border: 1px solid rgba(34,36,38,.15);
+  color: rgba(0,0,0,.87);
+  font-size: 0.9rem;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  line-height: 1.21428571em;
+  outline: 0;
+  padding: .67857143em 1em;
+  font-size: 1em;
+  transition: color .1s ease,border-color .1s ease;
+  margin-bottom: 10px;
+}
+
+#login-button {
+  margin-left: 20px;
+  width: 120px;
+  height: 80px;
+  color: #44CF5C;
+  font-size: 1em;
+  outline: 0;
+  padding: .67857143em 1em;
+  font-size: 1em;
+  transition: color .1s ease,border-color .1s ease;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  border: 1px solid rgba(34,36,38,.15);
+}
+
+#login-button:hover{
+  background: rgba(0,0,0,.2);
+}
+
+.ag-header-group-cell-label {
+  justify-content: center;
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+.ag-cell {
+  text-align: center;
+}
+
+.input-wrapper {
+  margin-top: 30px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.input-form textarea {
+  border: 1px solid rgba(34,36,38,.15);
+  color: rgba(0,0,0,.87);
+  font-size: 0.9rem;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  /* line-height: 1.21428571em; */
+  outline: 0;
+  padding: .67857143em 1em;
+  font-size: 1em;
+  transition: color .1s ease,border-color .1s ease;
+}
+
+.input-form button {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #e0e1e2 none;
+  color: rgba(0,0,0,.6);
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 1em;
+  border: 1px solid rgba(34,36,38,.15);
+  color: rgba(0,0,0,.87);
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  line-height: 1.21428571em;
+  outline: 0;
+  padding: .67857143em 1em;
+  transition: color .1s ease,border-color .1s ease;
+}
+
+.input-form button:hover{
+  background: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.7);
+}
+
+label, .row {
+  box-sizing: border-box;
+  display: block;
+  padding: 2px;
+}
+.row label {
+  display: inline;
+  padding: 0;
+}
+
+.loading-container {
+  margin-top: -300px;
+}
+
+button {
+  display: inline-block;
+  font-weight: bold;
+}
+#myGrid {
+  height: 100%;
+  width: 47%;
+  display: block;
+}
+
+#csvResult {
+  height: 100%;
+  width: 47%;
+  margin-left: 5%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1em;
+}
+#customValue {
+  width: 300px;
+}
+
+#button-container {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+#excel-button {
+  width: 120px;
+  height: 40px;
+  background-color: #1B6032;
+  color: white;
+  border: 1px solid rgba(34,36,38,.15);
+  font-size: 0.8em;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  line-height: 1.21428571em;
+  outline: 0;
+  padding: .67857143em 1em;
+  transition: color .1s ease,border-color .1s ease;
+}
+
+#excel-button:hover {
+  color: #1B6032;
+  background-color: rgba(0,0,0,.2);
+}
+
+#refresh-button {
+  margin-right: 10px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgba(34,36,38,.15);
+  color: rgba(0,0,0,.87);
+  font-size: 0.8em;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  line-height: 1.21428571em;
+  outline: 0;
+  padding: .67857143em 1em;
+  transition: color .1s ease,border-color .1s ease;
+}
+
+#refresh-button:hover {
+  color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.2);
+}

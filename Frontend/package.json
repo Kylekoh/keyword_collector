@@ -1,0 +1,75 @@
+{
+  "name": "keyword_collector",
+  "version": "0.1.0",
+  "description": "Keyword collector for naver keyword",
+  "main": "public/electron.js",
+  "author": "kyle_koh",
+  "homepage": "./",
+  "build": {
+    "asar": true,
+    "asarUnpack": "node_modules/puppeteer/.local-chromium/**/*",
+    "productName": "Keyword Collector",
+    "appId": "com.electron.hello",
+    "directories": {
+      "buildResources": "resources/installer/",
+      "output": "dist/",
+      "app": "."
+    }
+  },
+  "dependencies": {
+    "ag-grid": "^18.1.2",
+    "ag-grid-community": "^22.1.0",
+    "ag-grid-react": "^22.1.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "electron-is-dev": "^1.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "puppeteer": "^2.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
+    "request": "^2.88.0",
+    "semantic-ui-react": "^0.88.2",
+    "tachyons-components": "^1.0.1"
+  },
+  "scripts": {
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "test-react": "react-scripts test --env=jsdom",
+    "eject-react": "react-scripts eject",
+    "build-electron": "electron-builder -w",
+    "build": "yarn build-react && yarn build-electron",
+    "start": "concurrently \"cross-env BROWSER=none yarn start-react\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "asar": "^2.0.3",
+    "concurrently": "^5.0.2",
+    "electron": "^7.1.6",
+    "wait-on": "^3.3.0",
+    "electron-builder": "^22.2.0"
+  }
+}
