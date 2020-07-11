@@ -71,7 +71,7 @@ npm install npm@latest -g
 1. Repo 클론
 <pre>
 <code>
-git clone https://github.com/Kylekoh/football-stat.git
+git clone https://github.com/Kylekoh/keyword_collector.git
 </code>
 </pre>
 
