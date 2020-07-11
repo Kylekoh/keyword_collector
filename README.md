@@ -90,17 +90,15 @@ yarn start
 
 ## Usage
 
-![](name-of-giphy.gif)
-
-- 네이버 광고 로그인
+- 네이버 광고 로그인<br/>
   <img src='./Images/login.gif' width="600" height="400" margin="0 auto">
   <br/>
 
-- 키워드 검색
+- 키워드 검색<br/>
   <img src='./Images/search.gif' width="600" height="400" margin="0 auto">
   <br/>
 
-- 검색 결과 엑셀 Export
+- 검색 결과 엑셀 Export<br/>
   <img src='./Images/excel.gif' width="600" height="400" margin="0 auto">
 
 ## Contact
