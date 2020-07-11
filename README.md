@@ -90,16 +90,18 @@ yarn start
 
 ## Usage
 
+![](name-of-giphy.gif)
+
 - 네이버 광고 로그인
-  <img src='./src/Images/login.gif' width="600" height="400" margin="0 auto">
+  <img src='./Images/login.gif' width="600" height="400" margin="0 auto">
   <br/>
 
 - 키워드 검색
-  <img src='./src/Images/search.gif' width="600" height="400" margin="0 auto">
+  <img src='./Images/search.gif' width="600" height="400" margin="0 auto">
   <br/>
 
 - 검색 결과 엑셀 Export
-  <img src='./src/Images/excel.gif' width="600" height="400" margin="0 auto">
+  <img src='./Images/excel.gif' width="600" height="400" margin="0 auto">
 
 ## Contact
 
